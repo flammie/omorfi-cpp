@@ -38,7 +38,9 @@
 namespace omorfi
 {
 
-Omorfi::Omorfi() : can_analyse_(false), can_hyphenate_(false) {}
+Omorfi::Omorfi() : analyser_(nullptr), can_analyse_(false),
+    hyphenator_(nullptr), can_hyphenate_(false)
+    {}
 
 Omorfi::~Omorfi()
 {
