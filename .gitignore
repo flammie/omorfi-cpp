@@ -1,3 +1,7 @@
+# build targets
+omorfi-lookup
+libomorfi.so
+# cmake
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
